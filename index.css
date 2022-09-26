@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(250, 237, 239)
+}
+
+.contenedor section{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    color: rgb(223, 155, 18);
+    flex-grow: 0, initial, inherit;
+    
+}
+.items{
+    color: rgb(219, 33, 33);
+    font: italic 400 100%/30px arial;
+    height: 89.8%;
+    width: 90px;
+    position:absolute;
+    left: 0;
+    top: 0;
+    padding: 27px;
+    padding-top: 10px;
+}
+
+@media (max-width: 640px){
+    .items{
+        color: rgb(172, 3, 155);
+        display: flex;
+        flex-direction: row;
+        align-items:flex-end;
+        padding: 25px;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .contenedor section{
+        color: darksalmon;
+        }
+}
+
